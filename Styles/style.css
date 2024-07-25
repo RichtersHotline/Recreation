@@ -91,42 +91,78 @@ min-height:100vh;
    background-color: #000000;
    background-image: linear-gradient(0deg, #19a8ff 0%, #0963ae 74%);
    display:flex;
-   
+   flex-direction:column;   
 }
 .Object {
     width:10px;
     height:10;
     border-left: 90px solid #522f09;
-    border-right: 90px solid #522f09;;
+    border-right: 90px solid #522f09;
     border-top: 10px solid transparent;
-    border-bottom:20px solid #522f09;;
-    
+    border-bottom:20px solid #522f09;
+   
     margin-top:5px;
     z-index:10;
     
     position:absolute;
     animation: movement 90s infinite forwards;
 }
+.Object2 {
+    width:10px;
+    height:30;
+    border-left: 90px solid #000000;
+    border-right: 90px solid #000000;
+    border-top: 17px solid black;
+    border-bottom:20px solid transparent;
+    margin-top:30px;
+    z-index:10;
+    filter:blur(4px);
+    opacity:0.7;
+    position:absolute;
+    animation: movement 90s infinite forwards;
+}
+.bench {
+margin-top:30px;
+    width:300px;
+    height:80px;
+    border-bottom:10px solid black;
+    border-left: 20px solid #522f09;
+    border-right: 20px solid #522f09;
+    border-top: 20px solid #522f09;
+    margin-left:5px;
+    background-size:cover;
+    box-shadow:0px black;
+    position:absolute;    
+}
+
 .BelowMidSky {
     width:100%;
     height:100px;
    background-color:#19a8ff	;
-
+  
 }
 .NearGroundLevel {
 
 
 }
 .Horizon {
-
+    /* background-color: #9f855d; 
+    width:100%;
+height:30px; */
 }
-
+/* #9f855d */
 .Sand {
     width:100%;
     background-color:#f6d7b0;
     background-image: linear-gradient(180deg, #ae8f60 10%,#ffe589  40%, #d6c68c 90%);
     background-size:cover;
     min-height:28vh;
+    display:flex;
+    justify-content:center;
+}
+.footsteps {
+
+
 }
 .MoreSand {
 
