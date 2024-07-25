@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+margin:0;
+padding: 0;
+box-sizing:border-box;
+
+}
+@keyframes movement {
+
+    0% {
+  transform: translateX(0);
+   left:0;
+    }
+100% {
+    transform: translateX(100%);
+left:100%;
+}
+
+}
+body, html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.container {
+display:flex;
+flex-direction:column;
+min-height:100vh;
+
+
+}
+.TopSky {
+
+    width:100%;
+    height:300px;
+   background-color:#009fff;
+   background-image: linear-gradient(0deg,#eeaf61   0%, 	#19a8ff 100%);
+   display:flex;
+   align-items:end;
+}
+.Background {
+    margin-left:5px;
+    width:2%;
+    height:40px;
+    opacity:0.5;
+    background-color:#8F6A64 
+    /* background-image: linear-gradient(90deg,#8F6A64   40%, 	#eeaf61  100%) */
+}
+.Background2 {
+    width:2%;
+    height:20px;
+    background-color:#8F6A64;
+    opacity:0.5;
+    /* background-image: linear-gradient(90deg,#8F6A64   40%, 	#eeaf61  100%) */
+}
+.Background3 {
+    margin-left:5px;
+    width:2%;
+    height:20px;
+    background-color:#8F6A64;
+    opacity:0.5;
+    /* background-image: linear-gradient(90deg,#8F6A64   40%, 	#eeaf61  100%) */
+}
+.Background4 {
+    margin-left:5px;
+    width:2%;
+    height:70px;
+    background-color:#8F6A64;
+    opacity:0.5;
+    background-image: linear-gradient(90deg,#8F6A64   40%, 	#eeaf61  100%);
+}
+.Cloud {
+
+    width:50%;
+    height:20px;
+    background-color:white;
+    margin-top:4px;
+  margin-left:10px;
+  border-radius:50%;
+  border:none;
+  outline:2px solid white;
+  opacity:0.5;
+  filter:blur(7px);
+ box-shadow:2px 2px black;
+
+}
+.MidSky {
+    width:100%;
+    height:200px;
+   background-color: #000000;
+   background-image: linear-gradient(0deg, #19a8ff 0%, #0963ae 74%);
+   display:flex;
+   
+}
+.Object {
+    width:10px;
+    height:10;
+    border-left: 90px solid #522f09;
+    border-right: 90px solid #522f09;;
+    border-top: 10px solid transparent;
+    border-bottom:20px solid #522f09;;
+    
+    margin-top:5px;
+    z-index:10;
+    
+    position:absolute;
+    animation: movement 90s infinite forwards;
+}
+.BelowMidSky {
+    width:100%;
+    height:100px;
+   background-color:#19a8ff	;
+
+}
+.NearGroundLevel {
+
+
+}
+.Horizon {
+
+}
+
+.Sand {
+    width:100%;
+    background-color:#f6d7b0;
+    background-image: linear-gradient(180deg, #ae8f60 10%,#ffe589  40%, #d6c68c 90%);
+    background-size:cover;
+    min-height:28vh;
+}
+.MoreSand {
+
+
+}
+
