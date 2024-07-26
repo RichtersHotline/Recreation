@@ -123,9 +123,9 @@ min-height:100vh;
 }
 .bench {
 margin-top:30px;
-    width:320px;
+    width:350px;
     height:80px;
-    border-bottom:10px solid black;
+    border-bottom:14px solid black;
     border-left: 20px solid #522f09;
     border-right: 20px solid #522f09;
     border-top: 14px solid #522f09;
@@ -165,7 +165,7 @@ margin-top:30px;
 
     background-color:black;
     width:5.8%;
-    height:7px;
+    height:5.9px;
     right:580px;
    bottom:200px;
    rotate:90deg;
@@ -175,7 +175,7 @@ margin-top:30px;
 
     background-color:black;
     width:5.8%;
-    height:7px;
+    height:5.9px;
     right:864.2px;
    bottom:200px;
    rotate:90deg;
@@ -209,6 +209,7 @@ height:30px; */
 
 .MoreSand {
 
+background-color:orange;
 
 }
 
