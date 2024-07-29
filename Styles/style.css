@@ -30,14 +30,14 @@ left:100%;
         background-image: linear-gradient(180deg,#be8c4d   0%, 	#19a8ff 100%);
         
     }
-    /* 50% {
+    50% {
 
         background-image: linear-gradient(180deg,#020e15 40%, #041F30 100%);
 
 
-    } */
+    } 
     /* remember dark on the right light on the left */
-   ;
+   
     75% {
 
         background-image: linear-gradient(180deg,#020e15 40%, #041F30 100%);
@@ -63,28 +63,27 @@ left:100%;
 
     }
     25% {
-
+        background-image:none;
         background-image: linear-gradient(90deg,#8F6A64   10%, 	#eeaf61  100%);
         
     }
     50% {
         background-image:none;
-
         background-color:#8F6A64;
+        
 
 
     }
     /* remember dark on the right light on the left */
    ;
     75% {
-        
+        background-image:none;
         background-color:#8F6A64;
-
     }
 
     100% {
        
-
+        background-image:none;
         background-color:#8F6A64;
 
     }
@@ -106,11 +105,11 @@ left:100%;
         background-image: linear-gradient(0deg,#be8c4d   20%, 	#1486cc 100%);
         
     }
-    /* 50% {
+     50% {
 
         background-image: linear-gradient(180deg, #184150 0%, rgb(2, 14, 22)  100%);
 
-    } */
+    } 
     /* remember dark on the right light on the left */
    ;
     75% {
@@ -178,7 +177,7 @@ min-height:100vh;
     background-color:#8F6A64;
     opacity:0.5;
     background-image: linear-gradient(90deg,#8F6A64   40%, 	#eeaf61  100%);
-    /* animation: BuildingNightFall 30s 1 forwards; */
+    animation: BuildingNightFall 30s 1 forwards;
 }
 .Cloud {
 
