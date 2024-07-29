@@ -30,12 +30,12 @@ left:100%;
         background-image: linear-gradient(180deg,#be8c4d   0%, 	#19a8ff 100%);
         
     }
-    50% {
+    /* 50% {
 
         background-image: linear-gradient(180deg,#020e15 40%, #041F30 100%);
 
 
-    }
+    } */
     /* remember dark on the right light on the left */
    ;
     75% {
@@ -77,14 +77,13 @@ left:100%;
     /* remember dark on the right light on the left */
    ;
     75% {
-        background-image:none;
-
+        
         background-color:#8F6A64;
 
     }
 
     100% {
-        background-image:none;
+       
 
         background-color:#8F6A64;
 
@@ -107,24 +106,23 @@ left:100%;
         background-image: linear-gradient(0deg,#be8c4d   20%, 	#1486cc 100%);
         
     }
-    50% {
+    /* 50% {
 
-        background: linear-gradient(180deg, #184150 0%, rgb(2, 14, 22)  100%);
+        background-image: linear-gradient(180deg, #184150 0%, rgb(2, 14, 22)  100%);
 
-    }
+    } */
     /* remember dark on the right light on the left */
    ;
     75% {
 
-        background: linear-gradient(180deg, #091b26 0%, #041c2c 100%);
+        background-image: linear-gradient(180deg, #ffffff 0%, #041c2c 100%);
 
     }
 
     100% {
 
         background-image: linear-gradient(0deg, #052133 20%,  #052133 100%);
-
-
+      
     }
 
 }
