@@ -18,6 +18,113 @@ left:100%;
 }
 
 }
+@keyframes OceanNightfall {
+
+    0%{ 
+ 
+        background-image: linear-gradient(180deg,#eeaf61   0%, 	#19a8ff 100%);
+
+    }
+    25% {
+
+        background-image: linear-gradient(180deg,#be8c4d   0%, 	#19a8ff 100%);
+        
+    }
+    50% {
+
+        background-image: linear-gradient(180deg,#020e15 40%, #041F30 100%);
+
+
+    } 
+    /* remember dark on the right light on the left */
+   
+    75% {
+
+        background-image: linear-gradient(180deg,#020e15 40%, #041F30 100%);
+
+    }
+
+    100% {
+
+        background-image: linear-gradient(180deg,#020e15 40%, #041F30 100%);
+
+
+
+    }
+
+
+
+
+}
+@keyframes BuildingNightFall {
+    0%{ 
+ 
+        background-image: linear-gradient(90deg,#8F6A64   40%, 	#eeaf61  100%);
+
+    }
+    25% {
+        background-image:none;
+        background-image: linear-gradient(90deg,#8F6A64   10%, 	#eeaf61  100%);
+        
+    }
+    50% {
+        background-image:none;
+        background-color:#8F6A64;
+        
+
+
+    }
+    /* remember dark on the right light on the left */
+   ;
+    75% {
+        background-image:none;
+        background-color:#8F6A64;
+    }
+
+    100% {
+       
+        background-image:none;
+        background-color:#8F6A64;
+
+    }
+
+
+
+
+
+}
+@keyframes  Nightfall {
+
+    0%{ 
+ 
+        background-image: linear-gradient(0deg,#eeaf61   0%, 	#19a8ff 100%);
+
+    }
+    25% {
+
+        background-image: linear-gradient(0deg,#be8c4d   20%, 	#1486cc 100%);
+        
+    }
+     50% {
+
+        background-image: linear-gradient(180deg, #184150 0%, rgb(2, 14, 22)  100%);
+
+    } 
+    /* remember dark on the right light on the left */
+   ;
+    75% {
+
+        background-image: linear-gradient(180deg, #ffffff 0%, #041c2c 100%);
+
+    }
+
+    100% {
+
+        background-image: linear-gradient(0deg, #052133 20%,  #052133 100%);
+      
+    }
+
+}
 body, html {
     margin: 0;
     height: 100%;
@@ -38,6 +145,7 @@ min-height:100vh;
    background-image: linear-gradient(0deg,#eeaf61   0%, 	#19a8ff 100%);
    display:flex;
    align-items:end;
+   animation: Nightfall 30s 1 forwards;
 }
 .Background {
     margin-left:5px;
@@ -69,6 +177,7 @@ min-height:100vh;
     background-color:#8F6A64;
     opacity:0.5;
     background-image: linear-gradient(90deg,#8F6A64   40%, 	#eeaf61  100%);
+    animation: BuildingNightFall 30s 1 forwards;
 }
 .Cloud {
 
@@ -91,7 +200,10 @@ min-height:100vh;
    background-color: #000000;
    background-image: linear-gradient(0deg, #19a8ff 0%, #0963ae 74%);
    display:flex;
-   flex-direction:column;   
+   flex-direction:column;  
+   background-image: linear-gradient(180deg,#eeaf61   0%, 	#19a8ff 100%);
+   
+   animation: OceanNightfall 30s 1 forwards; 
 }
 .Object {
     width:10px;
