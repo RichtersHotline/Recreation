@@ -18,6 +18,45 @@ left:100%;
 }
 
 }
+@keyframes BeachNightFall {
+    0%{ 
+ 
+        background-color:#f6d7b0;
+        background-image: linear-gradient(180deg, #ae8f60 10%,#ffe589  40%, #d6c68c 90%);
+
+    }
+    25% {
+
+        background-color:#f6d7b0;
+        background-image: linear-gradient(180deg, #ae8f60 10%,#ffe589  40%, #d6c68c 90%);
+        
+    }
+    50% {
+
+        background-color:#f6d7b0;
+        background-image: linear-gradient(180deg, #ae8f60 10%,#ffe589  40%, #d6c68c 90%);
+        filter:brightness(30%);
+    } 
+    /* remember dark on the right light on the left */
+   
+    75% {
+
+        background-color:#f6d7b0;
+        background-image: linear-gradient(180deg, #ae8f60 10%,#ffe589  40%, #d6c68c 90%);
+        filter:brightness(30%);
+    }
+
+    100% {
+
+        background-color:#f6d7b0;
+        background-image: linear-gradient(180deg, #ae8f60 10%,#ffe589  40%, #d6c68c 90%);
+        filter:brightness(30%);
+
+    }
+
+
+
+}
 @keyframes OceanNightfall {
 
     0%{ 
@@ -107,21 +146,24 @@ left:100%;
     }
      50% {
 
-        background-image: linear-gradient(180deg, #184150 0%, rgb(2, 14, 22)  100%);
+        background-image: linear-gradient(0deg, #052133 20%,  #052133 100%);
+        filter:brightness(30%);
 
     } 
     /* remember dark on the right light on the left */
    ;
     75% {
 
-        background-image: linear-gradient(180deg, #ffffff 0%, #041c2c 100%);
+        background-image: linear-gradient(0deg, #052133 20%,  #052133 100%);
+        filter:brightness(30%);
 
     }
 
     100% {
 
         background-image: linear-gradient(0deg, #052133 20%,  #052133 100%);
-      
+        filter:brightness(30%);
+
     }
 
 }
@@ -245,7 +287,7 @@ margin-top:30px;
     background-size:cover;
     box-shadow:0px black;
     position:absolute;    
-    
+    filter:brightness(30%);
 }
 
 .footstep {
@@ -256,6 +298,8 @@ margin-top:30px;
    display:block;
    margin-top:10px;
    position:absolute;
+   filter:brightness(40%);
+
 }
 .footstep2 {
 
@@ -264,6 +308,8 @@ margin-top:30px;
     height:17px;
    bottom:200px;
    position:absolute;
+   filter:brightness(40%);
+
 }
 .footstep3 {
 
@@ -272,6 +318,8 @@ margin-top:30px;
     height:17px;
    bottom:230px;
    position:absolute;
+   filter:brightness(40%);
+
 }
 .RightBenchBar {
 
@@ -282,6 +330,8 @@ margin-top:30px;
    bottom:200px;
    rotate:90deg;
    position:absolute;
+
+
 }
 .LeftBenchBar {
 
@@ -292,6 +342,8 @@ margin-top:30px;
    bottom:200px;
    rotate:90deg;
    position:absolute;
+   
+
 }
 .BelowMidSky {
     width:100%;
@@ -315,6 +367,9 @@ margin-top:30px;
     min-height:28vh;
     display:flex;
     justify-content:center;
+   
+    animation: BeachNightFall 30s 1 forwards; 
+    
 }
 
 .MoreSand {
