@@ -12,12 +12,10 @@ box-sizing:border-box;
   transform: translateX(0);
    left:0;
     }
-    10.8% {
-opacity:0.2;
+  
+    24.5% {
+        opacity:0.1;
 display:none;
-    }
-    25% {
-        display:none;
     }
     50% {
 
@@ -28,6 +26,28 @@ display:none;
 left:100%;
 display:none;
 }
+
+
+
+}
+@keyframes BenchNightfall {
+
+    100% {
+        margin-top:30px;
+        width:350px;
+        height:80px;
+        border-bottom:14px solid transparent;
+        border-left: 20px solid #522f09;
+        border-right: 20px solid #522f09;
+        border-top: 14px solid #522f09;
+        margin-left:5px;
+        background-size:cover;
+        box-shadow:0px black;
+        position:absolute;    
+        filter:brightness(30%);
+
+
+    }
 
 
 
@@ -234,7 +254,7 @@ min-height:100vh;
    background-image: linear-gradient(0deg,#eeaf61   0%, 	#19a8ff 100%);
    display:flex;
    align-items:end;
-   animation: Nightfall 30s 1 forwards;
+   animation: Nightfall 70s 1 forwards;
 }
 .Background {
     margin-left:5px;
@@ -266,7 +286,7 @@ min-height:100vh;
     background-color:#8F6A64;
     opacity:0.5;
     background-image: linear-gradient(90deg,#8F6A64   40%, 	#eeaf61  100%);
-    animation: BuildingNightFall 30s 1 forwards;
+    animation: BuildingNightFall 70s 1 forwards;
 }
 .Cloud {
 
@@ -292,7 +312,7 @@ min-height:100vh;
    flex-direction:column;  
    background-image: linear-gradient(180deg,#eeaf61   0%, 	#19a8ff 100%);
    
-   animation: OceanNightfall 30s 1 forwards; 
+   animation: OceanNightfall 70s 1 forwards; 
 }
 .Object {
     width:10px;
@@ -336,6 +356,8 @@ margin-top:30px;
     box-shadow:0px black;
     position:absolute;    
     filter:brightness(30%);
+    animation: BenchNightfall 30s 1 forwards; 
+
 }
 
 .footstep {
