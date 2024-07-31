@@ -12,10 +12,52 @@ box-sizing:border-box;
   transform: translateX(0);
    left:0;
     }
+    10.8% {
+opacity:0.2;
+display:none;
+    }
+    25% {
+        display:none;
+    }
+    50% {
+
+
+    }
 100% {
     transform: translateX(100%);
 left:100%;
+display:none;
 }
+
+
+
+}
+@keyframes BoatNightFall {
+    0%{ 
+ 
+        
+
+    }
+    25% {
+
+        
+    }
+    50% {
+
+        display:none;
+    } 
+    /* remember dark on the right light on the left */
+   
+    75% {
+
+       
+    }
+
+    100% {
+
+  
+    }
+
 
 }
 @keyframes BeachNightFall {
@@ -72,6 +114,7 @@ left:100%;
     50% {
 
         background-image: linear-gradient(180deg,#020e15 40%, #041F30 100%);
+        filter:brightness(30%);
 
 
     } 
@@ -80,6 +123,7 @@ left:100%;
     75% {
 
         background-image: linear-gradient(180deg,#020e15 40%, #041F30 100%);
+        filter:brightness(30%);
 
     }
 
@@ -87,6 +131,7 @@ left:100%;
 
         background-image: linear-gradient(180deg,#020e15 40%, #041F30 100%);
 
+        filter:brightness(30%);
 
 
     }
@@ -137,12 +182,14 @@ left:100%;
     0%{ 
  
         background-image: linear-gradient(0deg,#eeaf61   0%, 	#19a8ff 100%);
+    
 
     }
     25% {
 
         background-image: linear-gradient(0deg,#be8c4d   20%, 	#1486cc 100%);
-        
+        filter:brightness(70%);
+    
     }
      50% {
 
@@ -259,7 +306,8 @@ min-height:100vh;
     z-index:10;
     
     position:absolute;
-    animation: movement 90s infinite forwards;
+    animation: movement 90s infinite forwards, BoatNightFall 30s 1 forwards;;
+    
 }
 .Object2 {
     width:10px;
